@@ -138,7 +138,38 @@ The Philosopher agent applied Rawlsian analysis to the findings:
 
 ## Visualisations
 
-*Visualisations pending - research in progress for accurate data representation*
+### Hypothesis Stability Distribution
+
+```mermaid
+pie title Simulation Results - Hypothesis Stability
+    "STABLE" : 2
+    "UNSTABLE" : 3
+```
+
+### Phase Coherence by Hypothesis
+
+```mermaid
+xychart-beta
+    title "Phase Coherence - Oscillator Simulation"
+    x-axis ["Bioluminescence", "Mycelium", "Swell", "Dark Clinics", "Conclave"]
+    y-axis "Coherence" 0.9 --> 1.0
+    bar [0.9306, 0.9988, 1.0, 0.9559, 0.9916]
+```
+
+### Lyapunov Exponent (Stability Indicator)
+
+```mermaid
+xychart-beta
+    title "Lyapunov Exponent - Negative = Stable Attractor"
+    x-axis ["Mycelium", "Conclave", "Dark Clinics", "Bioluminescence", "Swell"]
+    y-axis "Lyapunov λ" -8 --> 5
+    bar [-6.8147, -0.4697, 1.9062, 3.6813, 4.2019]
+```
+
+**Reading the charts:**
+- **Phase Coherence > 0.9** = Strong synchronization (all hypotheses)
+- **Lyapunov λ < 0** = Stable attractor (Mycelium, Conclave)
+- **Lyapunov λ > 0** = Unstable/chaotic (Bioluminescence, Swell, Dark Clinics)
 
 ---
 
