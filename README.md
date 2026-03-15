@@ -138,13 +138,14 @@ The Philosopher agent applied Rawlsian analysis to the findings:
 
 ## Visualisations
 
-Three visualizations support this research:
+### Rural Australia Healthcare Overview
+![Rural Australia Healthcare](header_image.png)
 
-| File | Description |
-|------|-------------|
-| `header_image.png` | Rural Australia healthcare landscape overview |
-| `workforce_distribution.png` | Geographic distribution of healthcare workers |
-| `hypothesis_stability.png` | Oscillator simulation results for novel hypotheses |
+### Workforce Distribution
+![Workforce Distribution](workforce_distribution.png)
+
+### Hypothesis Stability (Oscillator Simulation)
+![Hypothesis Stability](hypothesis_stability.png)
 
 ---
 
