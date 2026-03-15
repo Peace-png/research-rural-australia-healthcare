@@ -146,27 +146,46 @@ pie title Simulation Results - Hypothesis Stability
     "UNSTABLE" : 3
 ```
 
-### Phase Coherence by Hypothesis
+### Phase Coherence Weave Pattern
 
-| Hypothesis | Phase Coherence | Status |
-|------------|-----------------|--------|
-| Mycelium Network | 99.88% | STABLE |
-| Conclave Effect | 99.16% | STABLE |
-| Swell Prediction | 100% | UNSTABLE |
-| Dark Clinics | 95.59% | UNSTABLE |
-| Bioluminescence | 93.06% | UNSTABLE |
+```
+PHASE COHERENCE BY HYPOTHESIS (█ = 25% increments)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+H1 Bioluminescence   ███████████████████████████████████░░░░░ 93.06%
+H2 Mycelium Network   ███████████████████████████████████████ 99.88%
+H3 Swell Prediction   ████████████████████████████████████████ 100.0%
+H4 Dark Clinics       █████████████████████████████████████░░░ 95.59%
+H5 Conclave Effect    ███████████████████████████████████████░ 99.16%
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                      ░░ low ▒▒ medium ▓▓ good ██ excellent
+```
 
-### Lyapunov Exponent (Stability Indicator)
+### Lyapunov Stability Weave Pattern
 
-| Hypothesis | Lyapunov λ | Interpretation |
-|------------|-----------|----------------|
-| Mycelium Network | -6.81 | Stable attractor ✅ |
-| Conclave Effect | -0.47 | Stable attractor ✅ |
-| Dark Clinics | +1.91 | Unstable |
-| Bioluminescence | +3.68 | Unstable |
-| Swell Prediction | +4.20 | Unstable |
+```
+STABILITY SPECTRUM (λ < 0 = stable attractor, λ > 0 = chaotic)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                     STABLE ←──|──→ UNSTABLE
+                           -4       0       +4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+H2 Mycelium        ████████████████████████░░░░░░░░░░░░░░░░░░░░░  λ = -6.81 ✅
+H5 Conclave        █████████████████████████████░░░░░░░░░░░░░░░░░  λ = -0.47 ✅
+────────────────────────────────────────────────────────────────────
+H4 Dark Clinics     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒  λ = +1.91
+H1 Bioluminescence  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓▓▓▓▓  λ = +3.68
+H3 Swell            ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░███  λ = +4.20
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
 
-**Reading:** Lyapunov λ < 0 = stable system, λ > 0 = chaotic/unstable
+### Summary Table
+
+| Hypothesis | Phase Coherence | Lyapunov λ | Status |
+|------------|-----------------|-----------|--------|
+| Mycelium Network | 99.88% | -6.81 | STABLE ✅ |
+| Conclave Effect | 99.16% | -0.47 | STABLE ✅ |
+| Dark Clinics | 95.59% | +1.91 | UNSTABLE |
+| Bioluminescence | 93.06% | +3.68 | UNSTABLE |
+| Swell Prediction | 100% | +4.20 | UNSTABLE |
 
 ---
 
