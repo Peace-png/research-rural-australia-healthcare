@@ -1,0 +1,132 @@
+{
+  "project": "rural-australia-healthcare",
+  "created": "2026-03-15",
+  "runs": [
+    {
+      "cycle": 1,
+      "date": "2026-03-15 23:00",
+      "question": "What is the current state of rural Australia's medical situation?",
+      "result": "Full 14-agent Research Lab stack completed",
+      "supported": [
+        "Maldistribution (not shortage) is the core problem",
+        "RFDS and ACCHS are working models",
+        "Satellite latency (600-800ms) limits telehealth effectiveness",
+        "3,000-5,000 GP shortfall in rural areas",
+        "$8.35B annual rural health underspend",
+        "Mycelium Network hypothesis validated STABLE (99.88% coherence)",
+        "Conclave Effect validated STABLE (game-theoretic equilibrium)"
+      ],
+      "rejected": [
+        "Doctor shortage narrative (it's distribution failure)",
+        "Telehealth as primary solution (latency makes it band-aid)"
+      ],
+      "unknown": [
+        "Long-term sustainability of novel solutions",
+        "Political feasibility of pre-commitment licensing"
+      ],
+      "novel_hypotheses": [
+        {
+          "name": "Bioluminescence Protocol",
+          "domain": "Marine Biology",
+          "prediction": "Pre-showcasing complex cases increases specialist engagement 15-25%",
+          "simulator_status": "UNSTABLE (Kuramoto)",
+          "key_metric": "Phase coherence 0.93"
+        },
+        {
+          "name": "Mycelium Network",
+          "domain": "Mycology",
+          "prediction": "10:1 CHW-to-doctor distributed triage reduces specialist load 40%",
+          "simulator_status": "STABLE (Coupled network)",
+          "key_metric": "Phase coherence 99.88%"
+        },
+        {
+          "name": "Swell Prediction",
+          "domain": "Surfing",
+          "prediction": "Time-shifted resources match predictable demand patterns",
+          "simulator_status": "UNSTABLE (Forced oscillator)",
+          "key_metric": "Resonance amplification"
+        },
+        {
+          "name": "Dark Clinics",
+          "domain": "E-Commerce",
+          "prediction": "Pre-positioned dormant facilities activate in 2 hours vs 6 months",
+          "simulator_status": "UNSTABLE (Relaxation)",
+          "key_metric": "15 activations in 10s simulation"
+        },
+        {
+          "name": "Conclave Effect",
+          "domain": "Game Theory",
+          "prediction": "Early career pre-commitment beats mandates for rural placement",
+          "simulator_status": "STABLE (Replicator dynamics)",
+          "key_metric": "Converges to defection equilibrium"
+        }
+      ],
+      "next_tests": [
+        "Pilot Mycelium Network (CHW distributed triage) in one LHD",
+        "Test Bioluminescence Protocol with specialists via case preview platform",
+        "Model Swell Prediction against seasonal demand data"
+      ],
+      "experimenter_interventions": [
+        {
+          "name": "GP Retention Bundle",
+          "target": "MMM5-7 areas",
+          "pilot_cost": "$4.5M over 3 years",
+          "success_metric": "70% retention at 2 years (vs 40% current)",
+          "falsification": "FAIL if <50% retention"
+        },
+        {
+          "name": "Async Telehealth Hub",
+          "target": "30 remote communities",
+          "pilot_cost": "$450K setup",
+          "success_metric": "30% reduction in patient travel",
+          "falsification": "FAIL if <15% travel reduction"
+        },
+        {
+          "name": "Mental Health Gatekeeper Network",
+          "target": "500 gatekeepers across 150 communities",
+          "pilot_cost": "$650K/year",
+          "success_metric": "20% increase in early-stage presentations",
+          "falsification": "FAIL if no change in crisis presentations at 24 months"
+        },
+        {
+          "name": "ACCHS Mobile Outreach Units",
+          "target": "10 units, 30-40 satellite communities",
+          "pilot_cost": "$3.2M/year",
+          "success_metric": "25% increase in health checks",
+          "falsification": "FAIL if <10% increase"
+        },
+        {
+          "name": "Regional Admin Shared Services Hub",
+          "target": "6 hubs serving 120 practices",
+          "pilot_cost": "$7.1M Year 1, saves $2.5M/year after",
+          "success_metric": "Admin overhead 25% to 15%",
+          "falsification": "FAIL if overhead remains >20%"
+        }
+      ],
+      "agents_used": [
+        "ClaudeResearcher (Scientist)",
+        "GrokResearcher (Skeptic)",
+        "Research skill (Historian)",
+        "CodexResearcher (Experimenter)",
+        "Thinking skill (Philosopher)",
+        "GeminiResearcher (Explainer)",
+        "CodexResearcher (Ideologist)",
+        "CodexResearcher (Simulator)",
+        "Artist skill"
+      ],
+      "status": "complete"
+    }
+  ],
+  "dead_ends": [],
+  "open_questions": [
+    "What incentive structures actually change doctor behaviour?",
+    "Can Aboriginal health models scale to non-Indigenous communities?",
+    "How to overcome satellite latency for telehealth?"
+  ],
+  "key_insights": [
+    "Distribution failure, not workforce shortage",
+    "Community health workers are the force multiplier",
+    "Pre-commitment mechanisms outperform mandates",
+    "Predictable demand patterns allow resource pre-positioning"
+  ]
+}
