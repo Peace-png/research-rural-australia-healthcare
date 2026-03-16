@@ -141,7 +141,9 @@ The Philosopher agent applied Rawlsian analysis to the findings:
 ### Hypothesis Stability Distribution
 
 ```mermaid
-pie title Simulation Results - Hypothesis Stability
+%%{init: {'theme': 'base', 'themeVariables': { 'pie1': '#22c55e', 'pie2': '#ef4444', 'pieTitleFontSize': '18px'}}}%%
+pie showData
+    title Hypothesis Stability Results
     "STABLE" : 2
     "UNSTABLE" : 3
 ```
