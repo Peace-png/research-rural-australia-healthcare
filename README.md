@@ -141,11 +141,11 @@ The Philosopher agent applied Rawlsian analysis to the findings:
 ### Hypothesis Stability Distribution
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'pie1': '#22c55e', 'pie2': '#ef4444', 'pieTitleFontSize': '18px'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'pie1': '#ef4444', 'pie2': '#22c55e', 'pieTitleFontSize': '18px'}}}%%
 pie showData
     title Hypothesis Stability Results
-    "STABLE" : 2
     "UNSTABLE" : 3
+    "STABLE" : 2
 ```
 
 ### Phase Coherence Weave Pattern
