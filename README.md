@@ -149,31 +149,31 @@ pie title Simulation Results - Hypothesis Stability
 ### Phase Coherence Weave Pattern
 
 ```
-PHASE COHERENCE BY HYPOTHESIS (█ = 25% increments)
+PHASE COHERENCE BY HYPOTHESIS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-H1 Bioluminescence   ███████████████████████████████████░░░░░ 93.06%
-H2 Mycelium Network   ███████████████████████████████████████ 99.88%
-H3 Swell Prediction   ████████████████████████████████████████ 100.0%
-H4 Dark Clinics       █████████████████████████████████████░░░ 95.59%
-H5 Conclave Effect    ███████████████████████████████████████░ 99.16%
+H1 Bioluminescence   🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ 93.06%
+H2 Mycelium Network  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 99.88% ✅
+H3 Swell Prediction  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100.0%
+H4 Dark Clinics      🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ 95.59%
+H5 Conclave Effect   🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ 99.16% ✅
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-                      ░░ low ▒▒ medium ▓▓ good ██ excellent
+                      ⬜ low    🟨 medium    🟩 high
 ```
 
 ### Lyapunov Stability Weave Pattern
 
 ```
-STABILITY SPECTRUM (λ < 0 = stable attractor, λ > 0 = chaotic)
+STABILITY SPECTRUM (🟢 = stable attractor, 🟡 = marginal, 🔴 = chaotic)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-                     STABLE ←──|──→ UNSTABLE
-                           -4       0       +4
+                     STABLE ◄──────|──────► UNSTABLE
+                              -4        0        +4
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-H2 Mycelium        ████████████████████████░░░░░░░░░░░░░░░░░░░░░  λ = -6.81 ✅
-H5 Conclave        █████████████████████████████░░░░░░░░░░░░░░░░░  λ = -0.47 ✅
+H2 Mycelium        🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢⬜⬜⬜⬜  λ = -6.81 ✅
+H5 Conclave        🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢⬜⬜⬜  λ = -0.47 ✅
 ────────────────────────────────────────────────────────────────────
-H4 Dark Clinics     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒  λ = +1.91
-H1 Bioluminescence  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓▓▓▓▓  λ = +3.68
-H3 Swell            ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░███  λ = +4.20
+H4 Dark Clinics    ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜🟡🟡🟡🟡🟡🟡  λ = +1.91
+H1 Bioluminescence ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜🟠🟠🟠🟠  λ = +3.68
+H3 Swell           ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜🔴🔴🔴  λ = +4.20
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
